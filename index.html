@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Outsiide 1.4 and 2.0: before and after</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color: #222; background: #fff; margin: 0; line-height: 1.5; }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 1.6rem; margin: 0 0 8px; }
+  h2 { font-size: 1.15rem; margin: 40px 0 4px; }
+  p { margin: 0 0 12px; }
+  .pair { display: flex; gap: 12px; }
+  figure { margin: 0; flex: 1 1 0; min-width: 0; max-width: 360px; }
+  img { width: 100%; height: auto; border: 1px solid #ddd; display: block; }
+  figcaption { font-size: 0.85rem; color: #555; margin-top: 4px; }
+  .note { font-size: 0.85rem; color: #555; }
+  a { color: #1a56c4; }
+</style>
+</head>
+<body>
+<main>
+<h1>Outsiide: before and after the 2.0 redesign</h1>
+<p>Outsiide is an events app for Ottawa-Gatineau, on the <a href="https://apps.apple.com/ca/app/id6758898068">App Store</a> and <a href="https://play.google.com/store/apps/details?id=ca.outsiide.mobile">Google Play</a>. I have been its only developer since mid-2026. Version 2.0 (November 2026) rebuilt every screen of the app.</p>
+<p>Left: version 1.4. Right: version 2.0.</p>
+<p class="note">Both versions are release builds on the same Android emulator, with the same demo data (made-up posts and people, nothing from real users), captured on October 31, 2026.</p>
+<section>
+<h2>Feed</h2>
+<p>A swipe feed with a heart, share and bell rail became a full-screen reel with For you, Following and Explore, a rail with RSVP, Save and Share, and a floating tab bar with a Map button.</p>
+<div class="pair"><figure><img src="img/feed-before.jpg" alt="Before: 1.4" loading="lazy" width="480"><figcaption>Before: 1.4</figcaption></figure><figure><img src="img/feed-after.jpg" alt="After: 2.0" loading="lazy" width="480"><figcaption>After: 2.0</figcaption></figure></div>
+</section>
+<section>
+<h2>Post details</h2>
+<p>Details used to be a separate long page. Now a sheet opens over the paused post, with a When / Where / Price / Age grid and the event chat.</p>
+<div class="pair"><figure><img src="img/detail-before.jpg" alt="Before: 1.4" loading="lazy" width="480"><figcaption>Before: 1.4</figcaption></figure><figure><img src="img/detail-after.jpg" alt="After: 2.0" loading="lazy" width="480"><figcaption>After: 2.0</figcaption></figure></div>
+</section>
+<section>
+<h2>Post details, full screen</h2>
+<p>The sheet drags up into a full screen with About, the venue map, Directions and Copy address.</p>
+<div class="pair"><figure><img src="img/detail-full-before.jpg" alt="Before: 1.4" loading="lazy" width="480"><figcaption>Before: 1.4</figcaption></figure><figure><img src="img/detail-full-after.jpg" alt="After: 2.0" loading="lazy" width="480"><figcaption>After: 2.0</figcaption></figure></div>
+</section>
+<section>
+<h2>RSVP</h2>
+<p>Native alerts became an RSVP sheet with price, age limit and spots left.</p>
+<div class="pair"><figure><img src="img/rsvp-before.jpg" alt="Before: 1.4" loading="lazy" width="480"><figcaption>Before: 1.4</figcaption></figure><figure><img src="img/rsvp-after.jpg" alt="After: 2.0" loading="lazy" width="480"><figcaption>After: 2.0</figcaption></figure></div>
+</section>
+<section>
+<h2>Map</h2>
+<p>The Live tab showed only posts happening right now. The map is now a mode of Discover that shows the feed&#x27;s own results, with type pins, clusters and one shared radius (5 / 10 / 25 / 50 km).</p>
+<div class="pair"><figure><img src="img/map-before.jpg" alt="Before: 1.4" loading="lazy" width="480"><figcaption>Before: 1.4</figcaption></figure><figure><img src="img/map-after.jpg" alt="After: 2.0" loading="lazy" width="480"><figcaption>After: 2.0</figcaption></figure></div>
+</section>
+<section>
+<h2>Search</h2>
+<p>The Search tab became a full search screen with the active filter as a chip and grouped Posts and Tags results.</p>
+<div class="pair"><figure><img src="img/search-before.jpg" alt="Before: 1.4" loading="lazy" width="480"><figcaption>Before: 1.4</figcaption></figure><figure><img src="img/search-after.jpg" alt="After: 2.0" loading="lazy" width="480"><figcaption>After: 2.0</figcaption></figure></div>
+</section>
+<section>
+<h2>Filters</h2>
+<p>The filter dialog with checkboxes became a Filters sheet with radius, date, type and price, and a live “Show 12 posts” count.</p>
+<div class="pair"><figure><img src="img/filters-before.jpg" alt="Before: 1.4" loading="lazy" width="480"><figcaption>Before: 1.4</figcaption></figure><figure><img src="img/filters-after.jpg" alt="After: 2.0" loading="lazy" width="480"><figcaption>After: 2.0</figcaption></figure></div>
+</section>
+<section>
+<h2>Plans</h2>
+<p>The RSVP tab (RSVP, Liked, Saved) became Plans: Going, Saved and Past, with a week strip and a month view.</p>
+<div class="pair"><figure><img src="img/plans-before.jpg" alt="Before: 1.4" loading="lazy" width="480"><figcaption>Before: 1.4</figcaption></figure><figure><img src="img/plans-after.jpg" alt="After: 2.0" loading="lazy" width="480"><figcaption>After: 2.0</figcaption></figure></div>
+</section>
+<section>
+<h2>Inbox</h2>
+<p>The notification list behind the bell became an Inbox tab with a badge, Chats and Updates.</p>
+<div class="pair"><figure><img src="img/inbox-before.jpg" alt="Before: 1.4" loading="lazy" width="480"><figcaption>Before: 1.4</figcaption></figure><figure><img src="img/inbox-after.jpg" alt="After: 2.0" loading="lazy" width="480"><figcaption>After: 2.0</figcaption></figure></div>
+</section>
+<section>
+<h2>Ticket</h2>
+<p>The QR card became a ticket with date, time, venue, an entry code and the holder&#x27;s name.</p>
+<div class="pair"><figure><img src="img/ticket-before.jpg" alt="Before: 1.4" loading="lazy" width="480"><figcaption>Before: 1.4</figcaption></figure><figure><img src="img/ticket-after.jpg" alt="After: 2.0" loading="lazy" width="480"><figcaption>After: 2.0</figcaption></figure></div>
+</section>
+<section>
+<h2>Door scanner (host)</h2>
+<p>The host&#x27;s scanner got a manual code entry, a torch and full-screen results: Admit, Already in, Not valid, with a running count.</p>
+<div class="pair"><figure><img src="img/scanner-before.jpg" alt="Before: 1.4" loading="lazy" width="480"><figcaption>Before: 1.4</figcaption></figure><figure><img src="img/scanner-after.jpg" alt="After: 2.0" loading="lazy" width="480"><figcaption>After: 2.0</figcaption></figure></div>
+</section>
+<section>
+<h2>Review before publishing (host)</h2>
+<p>1.4 had no review step. 2.0 shows the post as it will appear in the feed, with guides for the areas the buttons cover.</p>
+<div class="pair"><figure><img src="img/review-before.jpg" alt="Before: 1.4" loading="lazy" width="480"><figcaption>Before: 1.4</figcaption></figure><figure><img src="img/review-after.jpg" alt="After: 2.0" loading="lazy" width="480"><figcaption>After: 2.0</figcaption></figure></div>
+</section>
+<section>
+<h2>Create post (host)</h2>
+<p>One long form became five steps, starting with “What is it?”.</p>
+<div class="pair"><figure><img src="img/create-before.jpg" alt="Before: 1.4" loading="lazy" width="480"><figcaption>Before: 1.4</figcaption></figure><figure><img src="img/create-after.jpg" alt="After: 2.0" loading="lazy" width="480"><figcaption>After: 2.0</figcaption></figure></div>
+</section>
+<section>
+<h2>Experience page</h2>
+<p>Places you can visit any time no longer show an RSVP button; they show opening hours and an open or closed status.</p>
+<div class="pair"><figure><img src="img/experience-before.jpg" alt="Before: 1.4" loading="lazy" width="480"><figcaption>Before: 1.4</figcaption></figure><figure><img src="img/experience-after.jpg" alt="After: 2.0" loading="lazy" width="480"><figcaption>After: 2.0</figcaption></figure></div>
+</section>
+<section>
+<h2>Sign in</h2>
+<p>The sign-in screen, redrawn.</p>
+<div class="pair"><figure><img src="img/login-before.jpg" alt="Before: 1.4" loading="lazy" width="480"><figcaption>Before: 1.4</figcaption></figure><figure><img src="img/login-after.jpg" alt="After: 2.0" loading="lazy" width="480"><figcaption>After: 2.0</figcaption></figure></div>
+</section>
+<section>
+<h2>Settings</h2>
+<p>Account settings, redrawn and reorganized.</p>
+<div class="pair"><figure><img src="img/settings-before.jpg" alt="Before: 1.4" loading="lazy" width="480"><figcaption>Before: 1.4</figcaption></figure><figure><img src="img/settings-after.jpg" alt="After: 2.0" loading="lazy" width="480"><figcaption>After: 2.0</figcaption></figure></div>
+</section>
+<section>
+<h2>Event chat (new in 2.0)</h2>
+<p>A chat room per event, with a pinned host announcement, replies and a HOST badge. Messages are screened by a word filter and OpenAI moderation.</p>
+<div class="pair"><figure><img src="img/chat-after.jpg" alt="After: 2.0" loading="lazy" width="480"><figcaption>After: 2.0</figcaption></figure></div>
+</section>
+<section>
+<h2>Large text (200%)</h2>
+<p>The same screen with the phone&#x27;s font size at 200%.</p>
+<div class="pair"><figure><img src="img/text200-before.jpg" alt="Before: 1.4" loading="lazy" width="480"><figcaption>Before: 1.4</figcaption></figure><figure><img src="img/text200-after.jpg" alt="After: 2.0" loading="lazy" width="480"><figcaption>After: 2.0</figcaption></figure></div>
+</section>
+<section>
+<h2>Light theme</h2>
+<p>1.4 was dark only. 2.0 follows the phone&#x27;s light or dark setting.</p>
+<div class="pair"><figure><img src="img/light-before.jpg" alt="Before: 1.4" loading="lazy" width="480"><figcaption>Before: 1.4</figcaption></figure><figure><img src="img/light-after.jpg" alt="After: 2.0, light theme" loading="lazy" width="480"><figcaption>After: 2.0, light theme</figcaption></figure></div>
+</section>
+</main>
+</body>
+</html>
